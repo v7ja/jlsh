@@ -11,7 +11,7 @@ def send_welcome(message):
         "Welcome to the Phone Number Info Bot!\n\n"
         "To get information about a phone number, simply send the phone number as a message, "
         "and I will provide you with details such as country, network, and time zone.\n\n"
-        "Example: +9647738689069
+        "Example: +9647738689069"
     )
     bot.send_message(message.chat.id, welcome_message)
 
